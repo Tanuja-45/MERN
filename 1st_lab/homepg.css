@@ -1,0 +1,112 @@
+.nav-bar{
+    justify-content: space-around;
+    text-shadow: 2px solid gray;
+       
+      
+   
+}
+
+
+body, body * {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+}
+
+.row:nth-of-type(4),
+.row:nth-of-type(4) * {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-style: normal;
+}
+
+.req .btn,
+.sch .btn,
+.vir .btn {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+}
+
+.logo{
+    height:45px;
+       align-self: self-start   ;
+       padding-left: 10px;
+}
+.icon{
+    height: 150px;
+}
+.clg-img{
+  height: 500px;
+  width: 100%;
+  box-shadow:   2px solid black;
+
+}
+.menu {
+    padding-right: 7px;
+    padding-left: 30px;
+}
+.req{
+    background-color: rgb(37, 119, 37);
+}
+.sch{
+    background-color:rgb(101, 231, 101)
+}
+.vir{
+    background-color: rgb(180, 253, 180);
+    
+}
+.req,.sch,.vir{
+    padding: 50px;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+}
+.third_row{
+    background-color:  white;
+    color:  rgb(37, 119, 37);
+    text-align: center;
+    padding:  20px 50px;
+    font-size: 65px;
+   font-weight: 600;
+   
+}
+.fifth_row_sec a {
+    text-decoration: none; 
+    color: gray;
+}
+.fifth_row_sec a:hover {
+    text-decoration: none; 
+}
+.fifth_row_third{
+    justify-content: space-around;
+}
+.footer_img{
+    height: 20px;;
+}
+
+.image-container {
+    position: relative; 
+}
+
+.clg-img {
+    width: 100%;   
+    height: 600px;  
+}
+
+.text-overlay {
+    position: absolute;   
+    top: 50%;            
+    left: 50%;            
+    transform: translate(-50%, -50%);  
+    color: white;        
+    font-size: 24px;      
+    text-align: center;   
+    padding: 20px;        
+    width: 80%;          
+}
