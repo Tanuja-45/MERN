@@ -1,112 +1,77 @@
 .nav-bar{
     justify-content: space-around;
     text-shadow: 2px solid gray;
-       
-      
-   
 }
 
 
 body, body * {
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 300;
+    font-weight: 300px;
     font-size: large;
     font-style: normal;
 }
-
-.row:nth-of-type(4),
-.row:nth-of-type(4) * {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 300;
-    font-size: large;
-    font-style: normal;
+.logo {
+    height: 25%;  
+    max-height: 50px;   
+    object-fit: contain;   
 }
 
-.req .btn,
-.sch .btn,
-.vir .btn {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: large;
-}
 
-.logo{
-    height:45px;
-       align-self: self-start   ;
-       padding-left: 10px;
-}
-.icon{
-    height: 150px;
-}
-.clg-img{
-  height: 500px;
-  width: 100%;
-  box-shadow:   2px solid black;
-
-}
-.menu {
-    padding-right: 7px;
-    padding-left: 30px;
-}
-.req{
-    background-color: rgb(37, 119, 37);
-}
-.sch{
-    background-color:rgb(101, 231, 101)
-}
-.vir{
-    background-color: rgb(180, 253, 180);
-    
-}
-.req,.sch,.vir{
-    padding: 50px;
-    font-weight: 700;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-   
-}
-.third_row{
-    background-color:  white;
-    color:  rgb(37, 119, 37);
-    text-align: center;
-    padding:  20px 50px;
-    font-size: 65px;
-   font-weight: 600;
-   
-}
-.fifth_row_sec a {
-    text-decoration: none; 
-    color: gray;
-}
-.fifth_row_sec a:hover {
-    text-decoration: none; 
-}
-.fifth_row_third{
+.cards-container {
+    position: relative;
+    top: -50px;  
+    display: flex;
     justify-content: space-around;
-}
-.footer_img{
-    height: 20px;;
+
+     
 }
 
-.image-container {
-    position: relative; 
+.cards1, .cards2, .cards3, .cards4 {
+    width: 250px;
+    height: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 2;
+    border:none;
 }
 
-.clg-img {
-    width: 100%;   
-    height: 600px;  
+.cards-body1,.cards-body2,.cards-body3,.cards-body4 {
+    text-align: center;
+    color: white;
+   
 }
 
-.text-overlay {
-    position: absolute;   
-    top: 50%;            
-    left: 50%;            
-    transform: translate(-50%, -50%);  
-    color: white;        
-    font-size: 24px;      
-    text-align: center;   
-    padding: 20px;        
-    width: 80%;          
+.position-relative img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
 }
+
+.card-text{
+    justify-content: left;
+    align-items: left;
+     border: none;
+     border-radius: none;
+}
+
+
+
+.large-icon{
+        font-size: 4rem;
+        margin-top: 10px;
+}
+.cards-body2{
+    background-color: lightgreen;
+}           
+.cards-body3{
+    background-color: skyblue;
+}
+.cards-body4{
+    background-color: pink;
+}
+ .cards-body1{
+    background-color: rgb(173, 86, 254);
+ }
+ 
