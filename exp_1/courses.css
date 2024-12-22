@@ -1,0 +1,41 @@
+
+.image-container {
+    position: relative;
+    height: 50vh;   
+    overflow: hidden;
+}
+
+.faded-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(30%);  
+}
+ 
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -125%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+ 
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px;
+    justify-content: center;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    padding:10px
+}
+
